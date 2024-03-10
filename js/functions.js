@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 // Функция проверки на соответствие длины строки заданным условиям
 const isStringLengthValid = function (stringValue, maxLength) {
   return stringValue.toString().length <= maxLength;
